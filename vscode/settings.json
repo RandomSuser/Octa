@@ -1,0 +1,34 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": []
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash"
+        },
+        
+    "Octave CLI Direct": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/k",
+                "C:\\Program Files\\GNU Octave\\Octave-10.1.0\\octave-launch.exe",
+                "--no-gui"
+                
+            ],
+            "icon": "terminal"
+        }
+    },
+    
+
+
+    "terminal.integrated.defaultProfile.windows": "Octave CLI Direct",
+    "terminal.integrated.automationProfile.windows": {},
+    "terminal.integrated.agentHostProfile.windows": ""
+}
